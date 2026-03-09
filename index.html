@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduFlow – Smart Learning Platform</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <!-- LANDING PAGE -->
+    <div id="page-landing" class="page active">
+
+        <!-- Navbar -->
+        <nav class="landing-nav">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center gap-2">
+                    <div class="edu-avatar edu-avatar-md" style="background:linear-gradient(135deg,#6c63ff,#4f46e5)">
+                        <i class="bi bi-mortarboard-fill"></i>
+                    </div>
+                    <span class="fw-800 fs-5 font-display text-white">EduFlow</span>
+                </div>
+                <button class="btn-edu-primary btn px-4 py-2" onclick="window.location.href='login.html'">Sign In</button>
+            </div>
+        </nav>
+
+        <!-- Hero -->
+        <section class="hero-section">
+            <div class="hero-glow glow-anim" style="width:500px;height:500px;background:rgba(108,99,255,.15);top:-100px;left:-100px;"></div>
+            <div class="hero-glow glow-anim" style="width:400px;height:400px;background:rgba(6,214,160,.08);bottom:-50px;right:-50px;animation-delay:1.5s;"></div>
+            <div class="container py-5">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <span class="pill mb-3" style="background:rgba(108,99,255,.15);color:#a78bfa;border:1px solid rgba(108,99,255,.3);">
+            <i class="bi bi-stars me-1"></i> The Future of Learning
+          </span>
+                        <h1 class="display-4 fw-bold font-display text-white lh-sm mb-4">
+                            Master New Skills<br/><span class="grad-text">Without Limits</span>
+                        </h1>
+                        <p class="fs-5 mb-4" style="color:#9090b0;line-height:1.7;">
+                            Join thousands of students and teachers on EduFlow — the intelligent learning platform built for real results.
+                        </p>
+                        <div class="d-flex flex-wrap gap-3 mb-5">
+                            <button class="btn-edu-primary btn px-4 py-3 fs-6" onclick="window.location.href='login.html'">
+              Get Started <i class="bi bi-arrow-right ms-1"></i>
+            </button>
+                            <button class="btn-edu-outline btn px-4 py-3 fs-6">
+              <i class="bi bi-play-circle me-1"></i> Watch Demo
+            </button>
+                        </div>
+                        <div class="d-flex flex-wrap gap-4">
+                            <div class="stat-card">
+                                <div class="stat-num">10K+</div>
+                                <div style="color:var(--text-muted);font-size:.85rem;">Students</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-num">500+</div>
+                                <div style="color:var(--text-muted);font-size:.85rem;">Instructors</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-num">1200+</div>
+                                <div style="color:var(--text-muted);font-size:.85rem;">Courses</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-num">95%</div>
+                                <div style="color:var(--text-muted);font-size:.85rem;">Success Rate</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-none d-lg-block">
+                        <div class="float-anim">
+                            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=700" alt="Learning" class="img-fluid rounded-4 shadow-lg" style="border:1px solid var(--border);" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section class="py-5" style="border-top:1px solid var(--border);">
+            <div class="container py-4">
+                <h2 class="font-display text-white text-center fw-bold fs-2 mb-2">Everything you need to <span class="grad-text">succeed</span></h2>
+                <p class="text-center mb-5" style="color:var(--text-muted);">All the tools for students and teachers in one place</p>
+                <div class="row g-4">
+                    <div class="col-sm-6 col-lg-4" onclick="window.location.href='login.html'" style="cursor:pointer">
+                        <div class="edu-card edu-card-hover p-4 h-100">
+                            <div class="feature-icon-box" style="background:rgba(108,99,255,.15)"><i class="bi bi-book fs-4" style="color:#a78bfa;"></i></div>
+                            <h5 class="font-display text-white fw-bold mb-2">Rich Course Library</h5>
+                            <p style="color:var(--text-muted);font-size:.9rem;">Access 1200+ expert-crafted courses across every domain.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4" onclick="window.location.href='login.html'" style="cursor:pointer">
+                        <div class="edu-card edu-card-hover p-4 h-100">
+                            <div class="feature-icon-box" style="background:rgba(251,191,36,.12)"><i class="bi bi-patch-check fs-4" style="color:#fbbf24;"></i></div>
+                            <h5 class="font-display text-white fw-bold mb-2">Smart Quizzes</h5>
+                            <p style="color:var(--text-muted);font-size:.9rem;">Test your knowledge with adaptive quizzes and instant results.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4" onclick="window.location.href='login.html'" style="cursor:pointer">
+                        <div class="edu-card edu-card-hover p-4 h-100">
+                            <div class="feature-icon-box" style="background:rgba(6,214,160,.12)"><i class="bi bi-bell fs-4" style="color:#06d6a0;"></i></div>
+                            <h5 class="font-display text-white fw-bold mb-2">Live Notices</h5>
+                            <p style="color:var(--text-muted);font-size:.9rem;">Stay updated with real-time notices from your teachers.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4" onclick="window.location.href='login.html'" style="cursor:pointer">
+                        <div class="edu-card edu-card-hover p-4 h-100">
+                            <div class="feature-icon-box" style="background:rgba(244,63,94,.12)"><i class="bi bi-journal-text fs-4" style="color:#f43f5e;"></i></div>
+                            <h5 class="font-display text-white fw-bold mb-2">Personal Notes</h5>
+                            <p style="color:var(--text-muted);font-size:.9rem;">Take and organize notes for every course in one place.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4" onclick="window.location.href='login.html'" style="cursor:pointer">
+                        <div class="edu-card edu-card-hover p-4 h-100">
+                            <div class="feature-icon-box" style="background:rgba(56,189,248,.12)"><i class="bi bi-people fs-4" style="color:#38bdf8;"></i></div>
+                            <h5 class="font-display text-white fw-bold mb-2">Teacher Tools</h5>
+                            <p style="color:var(--text-muted);font-size:.9rem;">Manage students, share links, add quizzes and content easily.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4" onclick="window.location.href='login.html'" style="cursor:pointer">
+                        <div class="edu-card edu-card-hover p-4 h-100">
+                            <div class="feature-icon-box" style="background:rgba(167,139,250,.12)"><i class="bi bi-graph-up-arrow fs-4" style="color:#a78bfa;"></i></div>
+                            <h5 class="font-display text-white fw-bold mb-2">Progress Tracking</h5>
+                            <p style="color:var(--text-muted);font-size:.9rem;">Visual dashboards to track learning progress and marks.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="py-5">
+            <div class="container py-4">
+                <div class="text-center p-5 rounded-4" style="background:linear-gradient(135deg,rgba(108,99,255,.15),rgba(56,189,248,.08));border:1px solid rgba(108,99,255,.25);">
+                    <h2 class="font-display text-white fw-bold fs-2 mb-3">Ready to start learning?</h2>
+                    <p style="color:var(--text-muted);" class="mb-4">Join EduFlow today — free for students.</p>
+                    <button class="btn-edu-primary btn px-5 py-3 fs-6" onclick="window.location.href='login.html'">Create Free Account</button>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center py-4" style="border-top:1px solid var(--border);color:var(--text-muted);font-size:.85rem;">
+            © 2026 EduFlow. All rights reserved.
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Shared App JS -->
+    <script src="app.js"></script>
+</body>
+
+</html>
